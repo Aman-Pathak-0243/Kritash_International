@@ -1,0 +1,116 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  height: 4vw;
+  width: 100vw;
+  border-bottom: 0.02vw solid rgba(0, 0, 0, 0.4);
+  z-index: 9999999;
+}
+
+.link,
+.dropdown {
+  float: right;
+}
+
+.link3 {
+  float: left;
+}
+
+.link {
+  box-sizing: border-box;
+  height: 4vw;
+  display: block;
+  color: #181b44;
+  text-align: center;
+  padding: 1.5vw 2.4vw 0vw 0vw;
+  text-decoration: none;
+  font-size: 1vw;
+  font-weight: 400;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  padding-top: 1.5vw;
+  letter-spacing: 1px;
+}
+
+.link3 {
+  position: absolute;
+  color: #00c0ff;
+  text-align: left;
+  text-decoration: none;
+  font-size: 1.25vw;
+  font-weight: 700;
+  font-family: helvetica;
+  margin: 0;
+  top: 0.75vw;
+  left: 5vw;
+  letter-spacing: 1px;
+}
+
+.span1 {
+  position: relative;
+  color: #00c0ff;
+  text-align: center;
+  padding: 1.5vw 2.4vw 0vw 0vw;
+  text-decoration: none;
+  font-size: 0.75vw;
+  font-weight: 600;
+  font-family: helvetica;
+  top: -0.75vw;
+  left: 0vw;
+  letter-spacing: 1px;
+}
+
+.active {
+  color: #00c0ff;
+}
+
+/* Change the link color to #111 (black) on hover */
+.link:hover,
+.dropdown .dropbtn:hover {
+  color: #00c0ff;
+}
+
+.focus {
+  box-sizing: border-box;
+  color: #fff;
+  height: 4vw;
+  font-weight: 600;
+  margin-right: 0vw;
+  padding: 1.5vw 3vw 0vw 3vw;
+  background-size: 200% 100%;
+  background-position: 100% 0;
+  transition: background-position 0.25s;
+  display: block;
+  background-image: linear-gradient(
+    to left,
+    #ff9933,
+    #ff9933 50%,
+    #00c0ff 50%,
+    #00c0ff
+  );
+}
+
+.focus:hover {
+  color: white;
+  background-position: 0 0;
+}
+
+.img1 {
+  float: left;
+  height: 4vw;
+  width: 4.25vw;
+  padding: 0.1vw;
+}
+
+.img2 {
+  width: 140%;
+  height: 96%;
+  background-color: #fff; /* fallback color */
+  background-image: url("pics/Kritash_Logo.svg");
+  background-position: center;
+  background-size: cover;
+}

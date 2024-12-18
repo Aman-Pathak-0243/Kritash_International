@@ -1,0 +1,84 @@
+.social {
+  width: 4.25vw;
+  height: 46vw;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  z-index: 1;
+  position: absolute;
+  top: 4vw;
+  opacity: 0;
+  animation: fadeBounce 1s forwards 1s;
+  -webkit-animation: fadeBounce 1s forwards 1s;
+}
+
+.link2 {
+  z-index: 1;
+  animation: fadeBounce 1s forwards 1s;
+  -webkit-animation: fadeBounce 1s forwards 1s;
+  display: block;
+  width: 4.25vw;
+  height: 4.25vw;
+  text-align: center;
+  font-size: 1vw;
+  color: white;
+  float: left;
+  clear: left;
+  opacity: 0;
+}
+
+.link2:hover {
+  background-color: #00c0ff;
+}
+
+.link2 i {
+  padding-top: 1.625vw;
+}
+
+.facebook {
+  margin-top: 29vw;
+  background-color: #1d204e;
+  color: #fff;
+}
+
+.twitter {
+  background-color: #262b6b;
+  color: #fff;
+}
+
+.dribbble {
+  background-color: #31368a;
+  color: #fff;
+}
+
+.google {
+  background-color: #1d204e;
+  color: #fff;
+}
+
+/* Bounce Animation */
+@-webkit-keyframes fadeBounce {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeBounce {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* End Bounce Animation */

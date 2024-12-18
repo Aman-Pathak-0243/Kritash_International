@@ -1,0 +1,70 @@
+.events {
+  background-image: url("../pics/events.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  top: 4vw;
+  height: 47vw;
+}
+.gradient {
+  background: linear-gradient(
+    to right,
+    rgba(24, 27, 68, 1) 0%,
+    rgba(24, 27, 68, 0.5) 60%,
+    rgba(220, 66, 37, 0) 100%
+  );
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  position: absolute;
+  top: 0vw;
+  left: 0vw;
+  height: 47vw;
+}
+
+.heading {
+  font-size: 6vw;
+  font-family: "Fira Sans";
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  background-color: rgba(0, 191, 255, 0.6);
+  border-radius: 5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 52vw;
+  height: 10vw;
+}
+
+.quote-two,
+.quote-one {
+  font-size: 2vw;
+  font-family: "Fira Sans";
+  text-transform: uppercase;
+  width: 45vw;
+  font-weight: 100;
+  position: absolute;
+}
+
+.quote-one {
+  color: rgba(255, 255, 255, 0.6);
+  top: 20vw;
+  left: -10vw;
+  rotate: -90deg;
+}
+.quote-two {
+  color: rgba(255, 255, 255, 0.7);
+  top: 19vw;
+  left: 60vw;
+  rotate: 90deg;
+}
