@@ -20,7 +20,7 @@
   grid-auto-flow: column;
   padding: 0vw;
   margin: 0vw;
-  grid-auto-columns: 26vw;
+  grid-auto-columns: 50vw;
   gap: 1vw;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
