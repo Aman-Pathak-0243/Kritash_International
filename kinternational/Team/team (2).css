@@ -5,3 +5,17 @@
 .social {
   position: fixed;
 }
+
+
+/* Base styles for the div */
+.responsive-div {
+  border-top-right-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+}
+
+/* Default width for large screens */
+.responsive-div {
+  margin-right: -17em; /* Default for large screens (max-width: 1309px and above) */
+}
+
+
