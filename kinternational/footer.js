@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
           <h1 class="h21">&mdash; CONTACT US</h1>
           <address class="h22">
             <div class="email"><a href="mailto:Kritash@iitjammu.ac.in">Kritash@iitjammu.ac.in</a></div> <br />
-            <div class="number"><a href="tel:+917004861025">+91 7004861025</a>, <a href="tel:+919103540634">+91 91035 40634</a></div>
+            <div class="number"><a href="tel:+917905001664">+91 7905001664</a>, <a href="tel:+919103540634">+91 6006138801</a></div>
           </address>
         </section>
         <section class="footer-grid-items">
